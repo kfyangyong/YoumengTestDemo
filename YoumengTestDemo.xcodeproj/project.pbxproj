@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD784D591E25BCD6005D269B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD784D581E25BCD6005D269B /* main.m */; };
+		DD784D5C1E25BCD6005D269B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD784D5B1E25BCD6005D269B /* AppDelegate.m */; };
+		DD784D5F1E25BCD6005D269B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD784D5E1E25BCD6005D269B /* ViewController.m */; };
+		DD784D621E25BCD6005D269B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD784D601E25BCD6005D269B /* Main.storyboard */; };
+		DD784D641E25BCD6005D269B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD784D631E25BCD6005D269B /* Assets.xcassets */; };
+		DD784D671E25BCD6005D269B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD784D651E25BCD6005D269B /* LaunchScreen.storyboard */; };
+		DD784D701E25DD6B005D269B /* UMTextshareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD784D6F1E25DD6B005D269B /* UMTextshareViewController.m */; };
+		DD784D741E270E3B005D269B /* UMImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD784D721E270E3B005D269B /* UMImageViewController.m */; };
+		DD784D751E270E3B005D269B /* UMImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD784D731E270E3B005D269B /* UMImageViewController.xib */; };
+		DD784D791E270EA1005D269B /* UMFileShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD784D771E270EA1005D269B /* UMFileShareViewController.m */; };
+		DD784D7A1E270EA1005D269B /* UMFileShareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD784D781E270EA1005D269B /* UMFileShareViewController.xib */; };
+		DD784D7E1E271579005D269B /* UMImageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DD784D7C1E271579005D269B /* UMImageCollectionViewCell.m */; };
+		DD784D7F1E271579005D269B /* UMImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD784D7D1E271579005D269B /* UMImageCollectionViewCell.xib */; };
+		ED6BC6882B377C48DF568370 /* libPods-YoumengTestDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FA80B69531F5E0FA17129B6 /* libPods-YoumengTestDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		75D1CAE39DBE0FCEC0C039F0 /* Pods-YoumengTestDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoumengTestDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YoumengTestDemo/Pods-YoumengTestDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		8FA80B69531F5E0FA17129B6 /* libPods-YoumengTestDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YoumengTestDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD784D541E25BCD6005D269B /* YoumengTestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoumengTestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD784D581E25BCD6005D269B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD784D5A1E25BCD6005D269B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DD784D5B1E25BCD6005D269B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DD784D5D1E25BCD6005D269B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DD784D5E1E25BCD6005D269B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DD784D611E25BCD6005D269B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD784D631E25BCD6005D269B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD784D661E25BCD6005D269B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD784D681E25BCD6005D269B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD784D6E1E25DD6B005D269B /* UMTextshareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMTextshareViewController.h; sourceTree = "<group>"; };
+		DD784D6F1E25DD6B005D269B /* UMTextshareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMTextshareViewController.m; sourceTree = "<group>"; };
+		DD784D711E270E3B005D269B /* UMImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMImageViewController.h; sourceTree = "<group>"; };
+		DD784D721E270E3B005D269B /* UMImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMImageViewController.m; sourceTree = "<group>"; };
+		DD784D731E270E3B005D269B /* UMImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMImageViewController.xib; sourceTree = "<group>"; };
+		DD784D761E270EA1005D269B /* UMFileShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMFileShareViewController.h; sourceTree = "<group>"; };
+		DD784D771E270EA1005D269B /* UMFileShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMFileShareViewController.m; sourceTree = "<group>"; };
+		DD784D781E270EA1005D269B /* UMFileShareViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMFileShareViewController.xib; sourceTree = "<group>"; };
+		DD784D7B1E271579005D269B /* UMImageCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMImageCollectionViewCell.h; sourceTree = "<group>"; };
+		DD784D7C1E271579005D269B /* UMImageCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMImageCollectionViewCell.m; sourceTree = "<group>"; };
+		DD784D7D1E271579005D269B /* UMImageCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMImageCollectionViewCell.xib; sourceTree = "<group>"; };
+		E7CAFA7BDD61816E923EA6BD /* Pods-YoumengTestDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoumengTestDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-YoumengTestDemo/Pods-YoumengTestDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD784D511E25BCD6005D269B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED6BC6882B377C48DF568370 /* libPods-YoumengTestDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8739507C1538FFC35157FD63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8FA80B69531F5E0FA17129B6 /* libPods-YoumengTestDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD784D4B1E25BCD6005D269B = {
+			isa = PBXGroup;
+			children = (
+				DD784D561E25BCD6005D269B /* YoumengTestDemo */,
+				DD784D551E25BCD6005D269B /* Products */,
+				DFAB220A7B7B5CC24CB7DB8B /* Pods */,
+				8739507C1538FFC35157FD63 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DD784D551E25BCD6005D269B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD784D541E25BCD6005D269B /* YoumengTestDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD784D561E25BCD6005D269B /* YoumengTestDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DD784D831E272AAB005D269B /* mainClass */,
+				DD784D821E272A9C005D269B /* textShare */,
+				DD784D801E272A6A005D269B /* imageshare */,
+				DD784D811E272A8B005D269B /* fileShare */,
+				DD784D631E25BCD6005D269B /* Assets.xcassets */,
+				DD784D651E25BCD6005D269B /* LaunchScreen.storyboard */,
+				DD784D601E25BCD6005D269B /* Main.storyboard */,
+				DD784D681E25BCD6005D269B /* Info.plist */,
+				DD784D571E25BCD6005D269B /* Supporting Files */,
+			);
+			path = YoumengTestDemo;
+			sourceTree = "<group>";
+		};
+		DD784D571E25BCD6005D269B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD784D581E25BCD6005D269B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD784D801E272A6A005D269B /* imageshare */ = {
+			isa = PBXGroup;
+			children = (
+				DD784D711E270E3B005D269B /* UMImageViewController.h */,
+				DD784D721E270E3B005D269B /* UMImageViewController.m */,
+				DD784D731E270E3B005D269B /* UMImageViewController.xib */,
+				DD784D7B1E271579005D269B /* UMImageCollectionViewCell.h */,
+				DD784D7C1E271579005D269B /* UMImageCollectionViewCell.m */,
+				DD784D7D1E271579005D269B /* UMImageCollectionViewCell.xib */,
+			);
+			name = imageshare;
+			sourceTree = "<group>";
+		};
+		DD784D811E272A8B005D269B /* fileShare */ = {
+			isa = PBXGroup;
+			children = (
+				DD784D761E270EA1005D269B /* UMFileShareViewController.h */,
+				DD784D771E270EA1005D269B /* UMFileShareViewController.m */,
+				DD784D781E270EA1005D269B /* UMFileShareViewController.xib */,
+			);
+			name = fileShare;
+			sourceTree = "<group>";
+		};
+		DD784D821E272A9C005D269B /* textShare */ = {
+			isa = PBXGroup;
+			children = (
+				DD784D6E1E25DD6B005D269B /* UMTextshareViewController.h */,
+				DD784D6F1E25DD6B005D269B /* UMTextshareViewController.m */,
+			);
+			name = textShare;
+			sourceTree = "<group>";
+		};
+		DD784D831E272AAB005D269B /* mainClass */ = {
+			isa = PBXGroup;
+			children = (
+				DD784D5A1E25BCD6005D269B /* AppDelegate.h */,
+				DD784D5B1E25BCD6005D269B /* AppDelegate.m */,
+				DD784D5D1E25BCD6005D269B /* ViewController.h */,
+				DD784D5E1E25BCD6005D269B /* ViewController.m */,
+			);
+			name = mainClass;
+			sourceTree = "<group>";
+		};
+		DFAB220A7B7B5CC24CB7DB8B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				75D1CAE39DBE0FCEC0C039F0 /* Pods-YoumengTestDemo.debug.xcconfig */,
+				E7CAFA7BDD61816E923EA6BD /* Pods-YoumengTestDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD784D531E25BCD6005D269B /* YoumengTestDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD784D6B1E25BCD6005D269B /* Build configuration list for PBXNativeTarget "YoumengTestDemo" */;
+			buildPhases = (
+				21C81BCAFD4E2ABF26322E00 /* [CP] Check Pods Manifest.lock */,
+				DD784D501E25BCD6005D269B /* Sources */,
+				DD784D511E25BCD6005D269B /* Frameworks */,
+				DD784D521E25BCD6005D269B /* Resources */,
+				1E33BAAD78B05E52C2DD8FFF /* [CP] Embed Pods Frameworks */,
+				5949D6A20596FFD122B03E40 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YoumengTestDemo;
+			productName = YoumengTestDemo;
+			productReference = DD784D541E25BCD6005D269B /* YoumengTestDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD784D4C1E25BCD6005D269B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = ayong;
+				TargetAttributes = {
+					DD784D531E25BCD6005D269B = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DD784D4F1E25BCD6005D269B /* Build configuration list for PBXProject "YoumengTestDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD784D4B1E25BCD6005D269B;
+			productRefGroup = DD784D551E25BCD6005D269B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD784D531E25BCD6005D269B /* YoumengTestDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD784D521E25BCD6005D269B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD784D671E25BCD6005D269B /* LaunchScreen.storyboard in Resources */,
+				DD784D641E25BCD6005D269B /* Assets.xcassets in Resources */,
+				DD784D7F1E271579005D269B /* UMImageCollectionViewCell.xib in Resources */,
+				DD784D7A1E270EA1005D269B /* UMFileShareViewController.xib in Resources */,
+				DD784D751E270E3B005D269B /* UMImageViewController.xib in Resources */,
+				DD784D621E25BCD6005D269B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E33BAAD78B05E52C2DD8FFF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YoumengTestDemo/Pods-YoumengTestDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		21C81BCAFD4E2ABF26322E00 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5949D6A20596FFD122B03E40 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YoumengTestDemo/Pods-YoumengTestDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD784D501E25BCD6005D269B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD784D741E270E3B005D269B /* UMImageViewController.m in Sources */,
+				DD784D5F1E25BCD6005D269B /* ViewController.m in Sources */,
+				DD784D5C1E25BCD6005D269B /* AppDelegate.m in Sources */,
+				DD784D591E25BCD6005D269B /* main.m in Sources */,
+				DD784D791E270EA1005D269B /* UMFileShareViewController.m in Sources */,
+				DD784D7E1E271579005D269B /* UMImageCollectionViewCell.m in Sources */,
+				DD784D701E25DD6B005D269B /* UMTextshareViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DD784D601E25BCD6005D269B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD784D611E25BCD6005D269B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD784D651E25BCD6005D269B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD784D661E25BCD6005D269B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD784D691E25BCD6005D269B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD784D6A1E25BCD6005D269B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD784D6C1E25BCD6005D269B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75D1CAE39DBE0FCEC0C039F0 /* Pods-YoumengTestDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YoumengTestDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hongye.YoumengTestDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DD784D6D1E25BCD6005D269B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7CAFA7BDD61816E923EA6BD /* Pods-YoumengTestDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YoumengTestDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hongye.YoumengTestDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD784D4F1E25BCD6005D269B /* Build configuration list for PBXProject "YoumengTestDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD784D691E25BCD6005D269B /* Debug */,
+				DD784D6A1E25BCD6005D269B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD784D6B1E25BCD6005D269B /* Build configuration list for PBXNativeTarget "YoumengTestDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD784D6C1E25BCD6005D269B /* Debug */,
+				DD784D6D1E25BCD6005D269B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD784D4C1E25BCD6005D269B /* Project object */;
+}

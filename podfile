@@ -1,0 +1,7 @@
+target 'YoumengTestDemo' do
+pod 'UMengAnalytics'
+pod ‘UMengUShare/UI'
+pod ‘UMengUShare/Social/WeChat'     
+pod ‘UMengUShare/Social/QQ'
+pod 'QBImagePickerController', '~> 3.4.0'
+end
