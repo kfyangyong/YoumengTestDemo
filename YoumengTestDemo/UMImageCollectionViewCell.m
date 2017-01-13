@@ -15,4 +15,11 @@
     // Initialization code
 }
 
+- (void)setImageView:(UIImageView *)imageView{
+    _imageView = imageView;
+//    _imageView.contentMode = UIViewContentModeScaleToFill;
+    
+    _imageView.contentMode = UIViewContentModeScaleAspectFit;
+}
+
 @end

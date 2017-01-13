@@ -20,7 +20,7 @@ static NSString *appkey = @"58758973717c1973a5002bb7";
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
-    
+  
     UMConfigInstance.appKey = appkey;
     UMConfigInstance.channelId = @"App Store";
 //    UMConfigInstance.eSType = E_UM_GAME; //仅适用于游戏场景，应用统计不用设置

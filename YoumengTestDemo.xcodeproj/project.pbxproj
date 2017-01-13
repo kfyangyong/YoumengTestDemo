@@ -198,6 +198,7 @@
 				TargetAttributes = {
 					DD784D531E25BCD6005D269B = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = EK369VYB66;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -416,6 +417,7 @@
 			baseConfigurationReference = 75D1CAE39DBE0FCEC0C039F0 /* Pods-YoumengTestDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EK369VYB66;
 				INFOPLIST_FILE = YoumengTestDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hongye.YoumengTestDemo;
@@ -428,6 +430,7 @@
 			baseConfigurationReference = E7CAFA7BDD61816E923EA6BD /* Pods-YoumengTestDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EK369VYB66;
 				INFOPLIST_FILE = YoumengTestDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hongye.YoumengTestDemo;
