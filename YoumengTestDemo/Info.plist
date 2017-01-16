@@ -72,5 +72,38 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+    
+<!--    分享文档-->
+<key>CFBundleDocumentTypes</key>
+<array>
+    <dict>
+        <key>CFBundleTypeIconFiles</key>
+        <array>
+            <string>MySmallIcon.png</string>
+            <string>MyLargeIcon.png</string>
+        </array>
+        <key>CFBundleTypeName</key>
+        <string>My File Format</string>
+        <key>LSHandlerRank</key>
+        <string>Owner</string>
+        <key>LSItemContentTypes</key>
+        <array>
+            <string>com.microsoft.powerpoint.ppt</string>
+            <string>public.item</string>
+            <string>com.microsoft.word.doc</string>
+            <string>com.adobe.pdf</string>
+            <string>com.microsoft.excel.xls</string>
+            <string>public.image</string>
+            <string>public.content</string>
+            <string>public.composite-content</string>
+            <string>public.archive</string>
+            <string>public.audio</string>
+            <string>public.movie</string>
+            <string>public.text</string>
+            <string>public.data</string>
+        </array>
+    </dict>
+</array>
+
 </dict>
 </plist>
